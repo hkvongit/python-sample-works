@@ -1,0 +1,1 @@
+ or (sentence[l]==space)
