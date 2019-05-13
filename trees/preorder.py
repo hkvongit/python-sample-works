@@ -30,7 +30,7 @@ k=sorted(le)
 print(k)
 length =len(k)-1
 
-result=bst(k,0,length,6)
+result=bst(k,0,length,9)
 if result!=False:
     print(f'found at {result}')
 else:
