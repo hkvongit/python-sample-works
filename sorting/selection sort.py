@@ -1,6 +1,6 @@
 def selection_sort(lis):
     length = len(lis)-1
-    for posi in range(length, 0,-1):
+    for posi in range(length, 1,-1):
         posOfMax=posi
         for ite in range(0,posi):
             if lis[ite]>lis[posOfMax]:
@@ -14,6 +14,6 @@ def selection_sort(lis):
         print(lis)
     return lis
 
-lis=[2,9,8,18,1]
+lis=[33,2,9,8,18,55,13,1]
 r=selection_sort(lis)
 print(r)

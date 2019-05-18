@@ -19,6 +19,7 @@
 #        if num1 != num2:
 #            return num1
 #    print(arr1[-1])
+'''
 import collections
 def finder2(arr1, arr2): 
     
@@ -39,3 +40,15 @@ def finder2(arr1, arr2):
             d[num]-=1
             print(d)
 finder2([1,2,4,3],[1,2,3,4,5]) 
+'''
+
+def sorty(a):
+    length =len(a)-1
+    for k in range(0,length):
+        for l in range(0,length-k):
+            if a[l]>a[l+1]:
+                a[l],a[l+1]=a[l+1],a[l]
+                
+
+def miss(a1,a2):
+    
